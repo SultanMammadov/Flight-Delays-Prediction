@@ -44,11 +44,13 @@ Figure_4. "Correlation Matrix of all variables"
 
 The XGBClassifier model achieved quite high performance scores, including an accuracy of 0.94 and an F1 score of 0.81. 
 This high performance is further reflected in the confusion matrix below, which shows the True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN).
+
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/33ee2b78-68f4-4289-b834-c8dba14f2f44)
 
 Figure_5. "Confusion Matrix"
 
 The ROC (Receiver Operating Characteristic) graph below illustrates the relationship between the True Positive Rate (TPR) and the False Positive Rate (FPR).
+
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/dd64c538-93fb-461a-8832-f3f8284db542)
 
 Figure_6. "ROC (Receiver Operating Characteristic) for the result of XGBClassifier"
@@ -59,22 +61,27 @@ Flight Dates, Departure Delay, and Speed are the most significant contributors, 
 
 Figure_7. "Permutation Feature Importance for the of XGBClassifier"
 
+
 **2nd Model: Decision Tree Classifier:**
 
 The Confusion Matrix below shows slightly lower performance than Confusion Matrix of 1st model with the following values: True Negatives (TN): 153,982, False Positives (FP): 15,989, False Negatives (FN): 8,818, and True Positives (TP): 30,926.
+
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/56bf2bbb-29f0-4442-8ac6-8ac56a68bdb0)
 
 Figure_8. "Confusion Matrix"
 
 The ROC (Receiver Operating Characteristic) graph below illustrates the relationship between the True Positive Rate (TPR) and the False Positive Rate (FPR).
+
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/94a9bf07-1d45-47db-9fa5-b0786263ab26)
 
 Figure_9. "ROC (Receiver Operating Characteristic) for the result of Decision Tree Classifier"
 
 Departure Delay is the biggest contributor in the 2nd model, whereas it was the 4th largest contributor in the 1st model.
+
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/b7e77424-449e-45ec-84b3-7fd7fb9486a4)
 
 Figure_10. "Permutation Feature Importance for the of Decision Tree Classifier"
+
 
 **XGBClassifier vs Decision Tree Classifier**
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/47d84808-5e7a-4899-86e3-591a2ea3e58d)
