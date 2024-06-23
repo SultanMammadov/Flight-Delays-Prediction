@@ -1,4 +1,4 @@
-Introduction:
+**Introduction:**
 
 Flight delays are a significant concern for air transportation worldwide due to the financial losses they cause. 
 In 2022, nearly a quarter of US flights were delayed, causing significant financial impact. The aviation industry faced costs estimated between $30 billion and $34 billion due to these delays and cancellations. 
@@ -11,14 +11,14 @@ Can passengers avoid delayed flights or predict delays before boarding? Using Ma
 
 In this project, I explored and compared two models to predict flight delays and recommended the one with higher performance. I also examined the most contributing features in both models and observed how they change from one model to another.
 
-Objective:
+**Objective:**
 The goal of this project is straightforward: developing a model that predicts flight delays before they appear on the departure boards.
 
-Data Collection:
+**Data Collection:**
 The dataset, sourced from Kaggle, includes multi-year data spanning from 2009 to 2023.
 
 
-1st Model: XGBClassifier:
+**1st Model: XGBClassifier:**
 
 The bar chart displays the proportion of delayed flights by day of the month, providing insight into the busiest days.
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/4308526f-23be-4a14-a929-339d986e1605)
@@ -52,7 +52,7 @@ Flight Dates, Departure Delay, and Speed are the most significant contributors, 
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/c3e62427-2308-4c10-9a5d-c18f4772b5db)
 Figure_7. "Permutation Feature Importance for the of XGBClassifier"
 
-2nd Model: Decision Tree Classifier:
+**2nd Model: Decision Tree Classifier:**
 
 The Confusion Matrix below shows slightly lower performance than Confusion Matrix of 1st model with the following values: True Negatives (TN): 153,982, False Positives (FP): 15,989, False Negatives (FN): 8,818, and True Positives (TP): 30,926.
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/56bf2bbb-29f0-4442-8ac6-8ac56a68bdb0)
@@ -66,7 +66,7 @@ Departure Delay is the biggest contributor in the 2nd model, whereas it was the 
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/b7e77424-449e-45ec-84b3-7fd7fb9486a4)
 Figure_10. "Permutation Feature Importance for the of Decision Tree Classifier"
 
-XGBClassifier vs Decision Tree Classifier
+**XGBClassifier vs Decision Tree Classifier**
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/47d84808-5e7a-4899-86e3-591a2ea3e58d)
 Figure_11. "Models Comparison"
 
