@@ -89,3 +89,12 @@ Figure_10. "Permutation Feature Importance for the of Decision Tree Classifier"
 
 Figure_11. "Models Comparison"
 
+**### Summary & Recommendations:**
+
+From the Exploratory Data Analysis (EDA), it appears that Hawaiian Airlines and Allegiant Airlines are among the most reliable in terms of on-time arrivals.
+
+However, it is crucial to note that these conclusions are based on data from the first quarter of 2022. This period might have been particularly favorable for these airlines and less so for others. Therefore, I recommend conducting a more comprehensive historical analysis by including data from the remaining nine months. This would provide a more balanced view, although it may require more computational resources to run the same models.
+
+To address data imbalance, the SMOTE (Synthetic Minority Over-sampling Technique) method was utilized to generate synthetic data. Additionally, the GridSearchCV method was employed to select the optimal parameters for the models.
+
+Based on the above comparison below, the XGBClassifier is recommended as the primary model for this dataset.
