@@ -22,14 +22,16 @@ The dataset, sourced from Kaggle, includes multi-year data spanning from 2009 to
 
 The bar chart displays the proportion of delayed flights by day of the month, providing insight into the busiest days.
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/4308526f-23be-4a14-a929-339d986e1605)
+
 Figure_1. "Proportion of Delayed Flights by Day of Month"
 
 The bar chart displays the number of delayed flights by airline, highlighting the airlines with the most and least delays.
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/45daadf7-30ec-4725-8c4c-d567689cde74)
+
 Figure_2. "The number of Delayed Flights by airline"
 
 The graphs below display the distributions and trends of all variables in the dataset.
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/7c33e5c0-c4c8-4464-a9c5-6c9a379ff4bd)Figure_3. "Visualisation of all variables"
+![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/7c33e5c0-c4c8-4464-a9c5-6c9a379ff4bd)
 
 Figure_3. "Distributions and trends of all variables"
 
