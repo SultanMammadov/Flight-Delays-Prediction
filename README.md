@@ -26,6 +26,7 @@ The bar chart displays the proportion of delayed flights by day of the month, pr
 Figure_1. "Proportion of Delayed Flights by Day of Month"
 
 The bar chart displays the number of delayed flights by airline, highlighting the airlines with the most and least delays.
+
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/45daadf7-30ec-4725-8c4c-d567689cde74)
 
 Figure_2. "The number of Delayed Flights by airline"
