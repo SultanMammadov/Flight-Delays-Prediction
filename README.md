@@ -89,7 +89,7 @@ Figure_10. "Permutation Feature Importance for the of Decision Tree Classifier"
 
 Figure_11. "Models Comparison"
 
-**### Summary & Recommendations:**
+**Summary & Recommendations:**
 
 From the Exploratory Data Analysis (EDA), it appears that Hawaiian Airlines and Allegiant Airlines are among the most reliable in terms of on-time arrivals.
 
