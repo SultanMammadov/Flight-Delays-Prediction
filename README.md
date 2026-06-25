@@ -7,9 +7,12 @@ Airlines also face extra costs such as crew expenses, aircraft repositioning, an
 
 Delays occur for various reasons, including air congestion, weather conditions, mechanical issues, boarding difficulties, and airlines' inability to manage demand.
 
-Can passengers avoid delayed flights or predict delays before boarding? Using Machine Learning (ML) algorithms, it is possible to predict flight delays to some extent. Different algorithms have varying accuracy and depend on the data provided.
+** Business Question:**
+- Can passengers avoid delayed flights or predict delays before boarding?
 
-In this project, I explored and compared two models to predict flight delays and recommended the one with higher performance. I also examined the most contributing features in both models and observed how they change from one model to another.
+Using Machine Learning (ML) algorithms, it is possible to predict flight delays to some extent. Different algorithms have varying accuracy and depend on the data provided.
+
+In this project, I explored the XGBOOST CLASSIFIER model to predict flight delays. I also examined the most contributing features in the model.
 
 **Objective:**
 The goal of this project is straightforward: developing a model that predicts flight delays before they appear on the departure boards.
@@ -18,7 +21,7 @@ The goal of this project is straightforward: developing a model that predicts fl
 The dataset, sourced from Kaggle, includes multi-year data spanning from 2009 to 2023.
 
 
-**1st Model: XGBClassifier:**
+**Model: XGBClassifier:**
 
 The bar chart displays the proportion of delayed flights by day of the month, providing insight into the busiest days.
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/4308526f-23be-4a14-a929-339d986e1605)
