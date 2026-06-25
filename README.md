@@ -31,7 +31,7 @@ Figure_1. "Proportion of Delayed Flights by Day of Month"
 
 The bar chart displays the number of delayed flights by airline, highlighting the airlines with the most and least delays.
 
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/45daadf7-30ec-4725-8c4c-d567689cde74)
+<img width="989" height="790" alt="download" src="https://github.com/user-attachments/assets/b637af7f-1f6a-4415-beb0-a7a11e2d94ae" />
 
 Figure_2. "The number of Delayed Flights by airline"
 
@@ -63,6 +63,10 @@ Figure_4. "Correlation Matrix of all variables"
 
 The XGBClassifier model achieved quite high performance scores, including an accuracy of 0.94 and an F1 score of 0.81. 
 This high performance is further reflected in the confusion matrix below, which shows the True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN).
+
+The model does a solid job overall — it correctly called over 1 million on-time flights and caught 210,939 real delays. 
+It does miss about 45,649 delays, flagging them as on-time when they weren't, which is the more frustrating error in practice. 
+But with only 41,252 false alarms on the other side, it's not crying wolf too often either.
 
 ![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/33ee2b78-68f4-4289-b834-c8dba14f2f44)
 
