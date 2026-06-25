@@ -21,10 +21,11 @@ The goal of this project is straightforward: developing a model that predicts fl
 The dataset, sourced from Kaggle, includes multi-year data spanning from 2009 to 2023.
 
 
-**Model: XGBClassifier:**
+** Model: XGBClassifier: **
 
 The bar chart displays the proportion of delayed flights by day of the month, providing insight into the busiest days.
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/4308526f-23be-4a14-a929-339d986e1605)
+
+<img width="1190" height="590" alt="download" src="https://github.com/user-attachments/assets/8672b91e-0f31-46d6-830e-575d277eaa9d" />
 
 Figure_1. "Proportion of Delayed Flights by Day of Month"
 
@@ -34,15 +35,29 @@ The bar chart displays the number of delayed flights by airline, highlighting th
 
 Figure_2. "The number of Delayed Flights by airline"
 
+The Big Four — American, Southwest, United, and Delta — dominate delays with 220K–335K each, while every other airline combined barely comes close. 
+American Airlines sits at the top with roughly 335K delays, nearly 4x the next tier. 
+Smaller carriers like Hawaiian and Allegiant barely register, mostly because they simply fly far fewer routes.
+
+
 The graphs below display the distributions and trends of all variables in the dataset.
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/7c33e5c0-c4c8-4464-a9c5-6c9a379ff4bd)
+
+<img width="1167" height="913" alt="download" src="https://github.com/user-attachments/assets/700e6631-1722-4b76-b320-39f69c619534" />
 
 Figure_3. "Distributions and trends of all variables"
 
+Most flights are on time, with delays being the exception rather than the rule. The majority of flights are short trips — think under 3 hours and under 1,000 miles. 
+And airlines stay pretty busy year-round with no single day standing out as dramatically busier than others.
+
+
 The correlation matrix shows the relationship between different variables in a dataset. 
 It displays correlation coefficients, which quantify the strength and direction of the linear relationship between pairs of variables. 
-There are strong relationships between several variables: Flight Status and Departure Delay (0.71), Speed and Airtime (0.58), and Distance and Speed (0.68).
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/fec406be-6605-4714-baf4-a4cf87d44041)
+Longer flights obviously cover more miles — air time and distance move together almost perfectly at 0.99. 
+If a flight leaves late, it almost always arrives late too, with departure delay and flight status strongly linked at 0.71. 
+Speed also ties closely to distance (0.71) and air time (0.62), meaning faster planes tend to fly longer routes. 
+Beyond that, things like the date (0.013), the airline (0.049), or which city you're flying from (-0.017) barely move the needle on whether a flight gets delayed.
+
+<img width="1095" height="790" alt="download" src="https://github.com/user-attachments/assets/d4f9e1cf-a7e4-4ce9-b6cf-ae6163c20928" />
 
 Figure_4. "Correlation Matrix of all variables"
 
