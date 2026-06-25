@@ -68,52 +68,30 @@ The model does a solid job overall — it correctly called over 1 million on-tim
 It does miss about 45,649 delays, flagging them as on-time when they weren't, which is the more frustrating error in practice. 
 But with only 41,252 false alarms on the other side, it's not crying wolf too often either.
 
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/33ee2b78-68f4-4289-b834-c8dba14f2f44)
+<img width="690" height="490" alt="download" src="https://github.com/user-attachments/assets/ad6c2a67-fdbd-4e7c-bee1-a1fd935f9e08" />
 
 Figure_5. "Confusion Matrix"
 
 The ROC (Receiver Operating Characteristic) graph below illustrates the relationship between the True Positive Rate (TPR) and the False Positive Rate (FPR).
 
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/dd64c538-93fb-461a-8832-f3f8284db542)
+<img width="989" height="790" alt="download" src="https://github.com/user-attachments/assets/bac81a03-30cc-4277-b505-c7b01f1b16c8" />
 
 Figure_6. "ROC (Receiver Operating Characteristic) for the result of XGBClassifier"
 
 The Permutation Feature Importance graph below shows how each feature contributes to the model's performance. 
 Flight Dates, Departure Delay, and Speed are the most significant contributors, while Origin and Departure Cities contribute the least.
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/c3e62427-2308-4c10-9a5d-c18f4772b5db)
+
+<img width="1289" height="690" alt="download" src="https://github.com/user-attachments/assets/8ae3f3fe-f4fd-4821-a293-32013a4fa0b8" />
 
 Figure_7. "Permutation Feature Importance for the of XGBClassifier"
 
 
-**2nd Model: Decision Tree Classifier:**
-
-The Confusion Matrix below shows slightly lower performance than Confusion Matrix of 1st model with the following values: True Negatives (TN): 153,982, False Positives (FP): 15,989, False Negatives (FN): 8,818, and True Positives (TP): 30,926.
-
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/56bf2bbb-29f0-4442-8ac6-8ac56a68bdb0)
-
-Figure_8. "Confusion Matrix"
-
-The ROC (Receiver Operating Characteristic) graph below illustrates the relationship between the True Positive Rate (TPR) and the False Positive Rate (FPR).
-
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/94a9bf07-1d45-47db-9fa5-b0786263ab26)
-
-Figure_9. "ROC (Receiver Operating Characteristic) for the result of Decision Tree Classifier"
-
-Departure Delay is the biggest contributor in the 2nd model, whereas it was the 4th largest contributor in the 1st model.
-
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/b7e77424-449e-45ec-84b3-7fd7fb9486a4)
-
-Figure_10. "Permutation Feature Importance for the of Decision Tree Classifier"
 
 
-**XGBClassifier vs Decision Tree Classifier**
-![image](https://github.com/SultanMammadov/Flight-Delays-Prediction/assets/126120167/47d84808-5e7a-4899-86e3-591a2ea3e58d)
 
-Figure_11. "Models Comparison"
 
-**Summary & Recommendations:**
 
-From the Exploratory Data Analysis (EDA), it appears that Hawaiian Airlines and Allegiant Airlines are among the most reliable in terms of on-time arrivals.
+
 
 However, it is crucial to note that these conclusions are based on data from the first quarter of 2022. This period might have been particularly favorable for these airlines and less so for others. Therefore, I recommend conducting a more comprehensive historical analysis by including data from the remaining nine months. This would provide a more balanced view, although it may require more computational resources to run the same models.
 
